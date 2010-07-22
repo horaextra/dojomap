@@ -33,16 +33,17 @@
           icon: image
         });
         
-        var contentString = 'bla';
+        $.get('/info.html', function(contentSting) {
 
-        var infowindow = new google.maps.InfoWindow({
-            content: contentString
-        });
+          var infowindow = new google.maps.InfoWindow({
+              content: contentSting
+          });
 
-        google.maps.event.addListener(marker, 'click', function() {
-          infowindow.open(map,marker);
+          google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map,marker);
+          });
+          
         });
-        
       });
     });
   }
