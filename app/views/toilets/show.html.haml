@@ -11,11 +11,12 @@
     %p
       %strong
         Horário:
-        = @toilet.working_hours
+        = @toilet.working_hour
     %p
       %strong
         Detalhes:
       %br
       = "Suporta: #{@toilet.purpose}."
       %br
+      Capacidade: 
       = @toilet.capacity
