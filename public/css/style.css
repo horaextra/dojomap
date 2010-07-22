@@ -1,17 +1,17 @@
-#content {
+#info-window {
   font: 14px Helvetica, arial, sans-serif;
 }
 
-#firstHeading {
+#info-window #firstHeading {
   font-size: 26px;
   color: #2988D3;
 }
 
-#firstHeading img {
+#info-window #firstHeading img {
   vertical-align: middle;
 }
 
-#tip {
+#info-window #tip {
   padding: 10px;
   background-color: #EFD6C2;
   border: 1px solid #D68949;
