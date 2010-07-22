@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta content='application/xhtml+xml; charset=utf-8' http-equiv='Content-Type' />
 <script type="text/javascript"
     src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js">
 </script>
@@ -9,6 +10,16 @@
   html { height: 100% }
   body { height: 100%; margin: 0px; padding: 0px }
   #map_canvas { height: 100% }
+  
+  h1 {
+    font: 14px Helvetica, arial, sans-serif;
+    margin: 10px;
+  }
+  
+  p {
+    margin: 10px;
+    line-height: 14px;
+  }               
 </style>
 <script type="text/javascript"
     src="http://maps.google.com/maps/api/js?sensor=false">
@@ -25,21 +36,33 @@
         myOptions);
     
     var image = 'https://www.patientpak.com/gfx/icons/icon-bathroom.gif';
-    $.get('/toilets', function(toilets) {
-      $(this).each(function(index, toilet) {
-        new google.maps.Marker({
-          position: new google.maps.LatLng(toilet['lat'],toilet['long']), 
+    $.getJSON('/toilets', function(toilets) {
+      $(toilets).each(function(index, toilet) {
+        var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(toilet.latitude,toilet.longitude), 
           map: map, 
           icon: image
+        });
+        
+        $.get('/info.html', function(contentSting) {
+
+          var infowindow = new google.maps.InfoWindow({
+              content: contentSting
+          });
+
+          google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map,marker);
+          });
+          
         });
       });
     });
   }
-  
-
 </script>
 </head>
 <body onload="initialize()">
+  <h1>Bainheiros no FISL</h1>
+  <p>Não passe aperto no FISL. Use essa aplicação para descobrir o banheiro mais próximo de você! :-)</p>
   <div id="map_canvas" style="width:100%; height:100%"></div>
 </body>
 </html>
