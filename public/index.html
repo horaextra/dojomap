@@ -68,7 +68,7 @@
           icon: image
         });
         
-        $.get('/info.html', function(contentSting) {
+        $.get("/toilets/show?lat_long=" + toilet.latitude + "," + toilet.longitude, function(contentSting) {
 
           var infowindow = new google.maps.InfoWindow({
               content: contentSting
