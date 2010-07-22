@@ -1,4 +1,7 @@
 - lat_long: "-30.059140,-51.175904"
+  description: "Descrição do banheiro"
 - lat_long: "30.059047,-51.173013"
+  description: "Descrição do banheiro2"
 - lat_long: "-30.06031,-51.173646"
+  description: "Descrição do banheiro3"
 - lat_long: "-30.055973,-51.174898"
