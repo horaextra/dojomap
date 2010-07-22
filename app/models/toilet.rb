@@ -1,5 +1,7 @@
 class Toilet
-  
+
+  attr_accessor :title, :address, :tip, :working_hours, :purpose, :capacity
+
   def self.all_to_json
     YAML.load(File.read("#{RAILS_ROOT}/db/toilets.yml")).map do |toilet|
       result = {}
