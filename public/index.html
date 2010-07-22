@@ -25,18 +25,16 @@
         myOptions);
     
     var image = 'https://www.patientpak.com/gfx/icons/icon-bathroom.gif';
-    $.get('/toilets', function(toilets) {
-      $(this).each(function(index, toilet) {
+    $.getJSON('/toilets', function(toilets) {
+      $(toilets).each(function(index, toilet) {
         new google.maps.Marker({
-          position: new google.maps.LatLng(toilet['lat'],toilet['long']), 
+          position: new google.maps.LatLng(toilet.latitude,toilet.longitude), 
           map: map, 
           icon: image
         });
       });
     });
   }
-  
-
 </script>
 </head>
 <body onload="initialize()">
