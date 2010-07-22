@@ -15,4 +15,10 @@ class Toilet
     YAML.load(File.read("#{RAILS_ROOT}/db/toilets.yml"))
   end
   
+  def self.parse(toilet)
+    result = Toilet.new
+    result.title = toilet['title']
+    result
+  end
+  
 end

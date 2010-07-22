@@ -1,1 +1,21 @@
-Aqui vai ficar bem feito
+#info-window
+  #siteNotice
+  %h1#firstHeading.firstHeading
+    = @toilet.title
+    %img{ :src => "/images/white-man.png" }
+  %p#address
+    = @toilet.address
+  #tip
+    = @toilet.tip
+  #bodyContent
+    %p
+      %strong
+        Horário:
+        = @toilet.working_hours
+    %p
+      %strong
+        Detalhes:
+      %br
+      = "Suporta: #{@toilet.purpose}."
+      %br
+      = @toilet.capacity

@@ -8,7 +8,8 @@ class ToiletsController < ApplicationController
   end
   
   def show
-    @toilet = Toilet.all.detect{|toilet| toilet["lat_long"] == params["id"]}
+    toilet = Toilet.all.detect{|toilet| toilet["lat_long"] == params["lat_long"]}
+    @toilet = Toilet.parse(toilet)
   end
   
 end
