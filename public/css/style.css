@@ -1,9 +1,28 @@
+html { height: 100% }
+body { height: 100%; margin: 0px; padding: 0px }
+#map_canvas { height: 100% }
+
+h1 {
+  font: 32px Helvetica, arial, sans-serif; 
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin: 10px;
+  color: #028541;
+}
+
+p {
+  margin: 10px;
+  line-height: 14px;  
+  font: 14px Helvetica, arial, sans-serif;   
+}
+
 #info-window {
   font: 14px Helvetica, arial, sans-serif;
 }
 
 #info-window #firstHeading {
-  font-size: 26px;
+  font-size: 24px;
   color: #2988D3;
 }
 
@@ -15,4 +34,4 @@
   padding: 10px;
   background-color: #EFD6C2;
   border: 1px solid #D68949;
-} 
+}
