@@ -9,18 +9,41 @@
 <style type="text/css">
   html { height: 100% }
   body { height: 100%; margin: 0px; padding: 0px }
-  #map_canvas { height: 100% } 
+  #map_canvas { height: 100% }
   
   h1 {
-    font: 26px Helvetica, arial, sans-serif;
+    font: 32px Helvetica, arial, sans-serif; 
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -1px;
     margin: 10px;
     color: #028541;
   }
   
   p {
     margin: 10px;
-    line-height: 14px;
-  }           
+    line-height: 14px;  
+    font: 14px Helvetica, arial, sans-serif;   
+  }
+  
+  #info-window {
+    font: 14px Helvetica, arial, sans-serif;
+  }
+
+  #info-window #firstHeading {
+    font-size: 24px;
+    color: #2988D3;
+  }
+
+  #info-window #firstHeading img {
+    vertical-align: middle;
+  }
+
+  #info-window #tip {
+    padding: 10px;
+    background-color: #EFD6C2;
+    border: 1px solid #D68949;
+  }        
 </style>
 <script type="text/javascript"
     src="http://maps.google.com/maps/api/js?sensor=false">
