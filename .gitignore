@@ -1,4 +1,4 @@
-.rvmrc
+.rvmrc*
 .DS_Store
 log/*
 tmp/**/*
