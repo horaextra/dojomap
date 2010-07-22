@@ -27,17 +27,30 @@
     var image = 'https://www.patientpak.com/gfx/icons/icon-bathroom.gif';
     $.getJSON('/toilets', function(toilets) {
       $(toilets).each(function(index, toilet) {
-        new google.maps.Marker({
+        var marker = new google.maps.Marker({
           position: new google.maps.LatLng(toilet.latitude,toilet.longitude), 
           map: map, 
           icon: image
         });
+        
+        var contentString = 'bla';
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.open(map,marker);
+        });
+        
       });
     });
   }
 </script>
 </head>
 <body onload="initialize()">
+  <h1>Bainheiros no FISL</h1>
+  <p>Não passe aperto no FISL. Use essa aplicação para descobrir o banheiro mais próximo de você! :-)</p>
   <div id="map_canvas" style="width:100%; height:100%"></div>
 </body>
 </html>
