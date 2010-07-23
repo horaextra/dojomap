@@ -17,7 +17,7 @@
     var map = new google.maps.Map(document.getElementById("map_canvas"),
         myOptions);
     
-    var image = 'https://www.patientpak.com/gfx/icons/icon-bathroom.gif';
+    var image = '/images/dojo.png';
     $.getJSON('/dojos', function(dojos) {
       $(dojos).each(function(index, d) {
 				var dojo = d.dojo;
