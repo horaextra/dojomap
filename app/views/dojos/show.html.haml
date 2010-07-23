@@ -1,24 +1,15 @@
 #info-window
   #siteNotice
   %h1#firstHeading.firstHeading
-    = @dojo.title
+    = @dojo.place
     %img{ :src => "/images/dojo.png" }
-  %p#address
-    = @dojo.address
-  #directions
-    = @dojo.directions
+  %p= @dojo.address
+  %p= @dojo.directions
   #bodyContent
     %p
       %strong
         Horário:
         = @dojo.schedule
-    %p
-      %strong
-        Detalhes:
-      %br
-      = "Site: #{@dojo.site}"
-      %br
-      = "Grupo de discussão: #{@dojo.group}"
-      %br
-      Capacidade: 
-      = @dojo.capacity
+    %p= "Site: #{@dojo.site}"
+    %p= "Grupo de discussão: #{@dojo.group}"
+    %p= "Capacidade: #{@dojo.capacity}"
