@@ -23,4 +23,8 @@ Spec::Runner.configure do |config|
     DojoImporter.new
   end
   
+  config.before(:each, :behaviour_type => :controller) do
+    DojoImporter.new
+  end
+  
 end

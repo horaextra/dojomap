@@ -26,13 +26,13 @@
   group: 
 
 - lat_long: "-22.914197,-43.177621"
-  place: "Lapa"
-  address: 
-  directions: 
+  place: "Lapa (Rio de Janeiro)"
+  address: Rua Teotônio Regadas 26 sala 201, Lapa, Rio de Janeiro, RJ
+  directions: Ao lado da sala Cecília Meireles, próximo ao Metrô Cinelândia.
   capacity: 
-  schedule: 
-  site: 
-  group: 
+  schedule: Toda quarta-feira às 18:30h.
+  site: http://dojorio.wordpress.com
+  group: http://groups.google.com.br/group/dojo-rio
 
 - lat_long: "-21.760098,-41.337347"
   place: "IFF"
