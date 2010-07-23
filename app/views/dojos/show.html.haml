@@ -3,3 +3,22 @@
   %h1#firstHeading.firstHeading
     = @dojo.title
     %img{ :src => "/images/dojo.png" }
+  %p#address
+    = @dojo.address
+  #directions
+    = @dojo.directions
+  #bodyContent
+    %p
+      %strong
+        Horário:
+        = @dojo.schedule
+    %p
+      %strong
+        Detalhes:
+      %br
+      = "Site: #{@dojo.site}"
+      %br
+      = "Grupo de discussão: #{@dojo.group}"
+      %br
+      Capacidade: 
+      = @dojo.capacity

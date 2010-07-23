@@ -1,20 +1,29 @@
 - lat_long: "-22.903168,-43.130323"
-  place: "UFF"
-  address: Lá na rua das couves
-  directions: Vai pelo cheiro
-  capacity: Um monte de gente
-  schedule: All day long
-  site: http://vaila.com.br
-  group: http://grupo.com.br
+  place: "UFF (quinta)"
+  address: Rua Passo da Pátria, 156 - Boa Viagem - Niterói, RJ
+  directions: Campus Praia Vermelha (campus de Engenharia da UFF) - Bloco D (prédio novo) - Sala 230B
+  capacity: 30 pessoas
+  schedule: Toda quinta-feira às 19:00h
+  site: http://dojorio.wordpress.com
+  group: http://groups.google.com.br/group/dojo-rio
+
+- lat_long: "-22.903168,-43.130323"
+  place: "UFF (terça)"
+  address: Rua Passo da Pátria, 156 - Boa Viagem - Niterói, RJ
+  directions: Campus Praia Vermelha (campus de Engenharia da UFF) - Bloco E (prédio velho) - Sala 501
+  capacity: 
+  schedule: Toda terça-feira às 11:00h
+  site: http://dojorio.wordpress.com
+  group: http://groups.google.com.br/group/dojo-rio
 
 - lat_long: "-21.760556,-41.307006"
   place: "UENF"
-  address: 
-  directions: 
+  address: Avenida Alberto Lamego, 2000 - Parque Califórnia - Campos dos Goytacazes, RJ
+  directions: Prédio P5, Térreo, Auditório 2
   capacity: 
-  schedule: 
-  site: 
-  group: 
+  schedule: Toda terça-feira às 18:15h
+  site: http://dojorio.wordpress.com
+  group: http://groups.google.com.br/group/dojo-rio
 
 - lat_long: "-21.760556,-41.307006"
   place: "UGF"
@@ -36,30 +45,21 @@
 
 - lat_long: "-21.760098,-41.337347"
   place: "IFF"
-  address: 
-  directions: 
+  address: Rua Doutor Siqueira, 273 - Parque Tamandaré, Campos dos Goytacazes, RJ
+  directions: Campus Campos-Centro - Sala 13 - Bloco E (coordenação de Informática)
   capacity: 
-  schedule: 
-  site: 
-  group: 
+  schedule: Toda quarta-feira às 18h30min.
+  site: http://dojorio.wordpress.com
+  group: http://groups.google.com.br/group/dojo-rio
 
 - lat_long: "-22.954303,-43.168867"
   place: "Unirio"
   address: 
   directions: 
   capacity: 
-  schedule: 
-  site: 
-  group: 
-
-- lat_long: "-22.954303,-43.168867"
-  place: "Niteroi"
-  address: 
-  directions: 
-  capacity: 
-  schedule: 
-  site: 
-  group: 
+  schedule: Toda quarta-feira às 20h00min
+  site: http://dojorio.wordpress.com
+  group: http://groups.google.com.br/group/dojo-rio
 
 - lat_long: "-22.43261,-42.876892"
   place: "LNCC"
