@@ -42,9 +42,17 @@ $(document).ready(function(){
 });
 
 function initialize() {
-	navigator.geolocation.getCurrentPosition(initialize_map);
+	if(navigator.geolocation) 
+			navigator.geolocation.getCurrentPosition(initialize_map, handle_errors);
+	else
+		initialize_map();
 }
-
-function handle_geolocation_query(position){
-	alert('Lat: ' + position.coords.latitude + ' ' +'Lon: ' + position.coords.latitude);
+function handle_errors(error)
+{
+	switch(error.code) {
+		default: 
+		initialize_map();
+		break;
+		
+	}
 }
