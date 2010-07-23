@@ -11,7 +11,7 @@
   place: "UFF (terça)"
   address: Rua Passo da Pátria, 156 - Boa Viagem - Niterói, RJ
   directions: Campus Praia Vermelha (campus de Engenharia da UFF) - Bloco E (prédio velho) - Sala 501
-  capacity: 
+  capacity:
   schedule: Toda terça-feira às 11:00h
   site: http://dojorio.wordpress.com
   group: http://groups.google.com.br/group/dojo-rio
@@ -20,25 +20,25 @@
   place: "UENF"
   address: Avenida Alberto Lamego, 2000 - Parque Califórnia - Campos dos Goytacazes, RJ
   directions: Prédio P5, Térreo, Auditório 2
-  capacity: 
+  capacity:
   schedule: Toda terça-feira às 18:15h
   site: http://dojorio.wordpress.com
   group: http://groups.google.com.br/group/dojo-rio
 
-- lat_long: "-21.760556,-41.307006"
+- lat_long: "-22.900251,-43.177225"
   place: "UGF"
-  address: 
-  directions: 
-  capacity: 
-  schedule: 
-  site: 
-  group: 
+  address: Avenida Presidente Vargas, 62 - Centro - Rio de Janerio, RJ
+  directions: Laboratório de Computação Visual, sala Curva, 3º andar
+  capacity:
+  schedule: Toda terça-feira às 19:00h
+  site: http://dojorio.wordpress.com
+  group: http://groups.google.com.br/group/dojo-rio
 
 - lat_long: "-22.914197,-43.177621"
   place: "Lapa (Rio de Janeiro)"
   address: Rua Teotônio Regadas 26 sala 201, Lapa, Rio de Janeiro, RJ
   directions: Ao lado da sala Cecília Meireles, próximo ao Metrô Cinelândia.
-  capacity: 
+  capacity:
   schedule: Toda quarta-feira às 18:30h.
   site: http://dojorio.wordpress.com
   group: http://groups.google.com.br/group/dojo-rio
@@ -47,26 +47,26 @@
   place: "IFF"
   address: Rua Doutor Siqueira, 273 - Parque Tamandaré, Campos dos Goytacazes, RJ
   directions: Campus Campos-Centro - Sala 13 - Bloco E (coordenação de Informática)
-  capacity: 
+  capacity:
   schedule: Toda quarta-feira às 18h30min.
   site: http://dojorio.wordpress.com
   group: http://groups.google.com.br/group/dojo-rio
 
 - lat_long: "-22.954303,-43.168867"
   place: "Unirio"
-  address: 
-  directions: 
-  capacity: 
+  address:
+  directions:
+  capacity:
   schedule: Toda quarta-feira às 20h00min
   site: http://dojorio.wordpress.com
   group: http://groups.google.com.br/group/dojo-rio
 
 - lat_long: "-22.43261,-42.876892"
   place: "LNCC"
-  address: 
-  directions: 
-  capacity: 
-  schedule: 
-  site: 
-  group: 
-  
+  address:
+  directions:
+  capacity:
+  schedule:
+  site:
+  group:
+
