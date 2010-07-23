@@ -1,4 +1,5 @@
 task :deploy do
-  `heroku push heroku master`
+  `git pull`
+  `git push heroku master`
   `heroku rake import`
 end
