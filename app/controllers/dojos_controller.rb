@@ -1,15 +1,14 @@
 class DojosController < ApplicationController
   
   def index
-    @dojos = Dojo.all_to_json
+    @dojos = Dojo.all
     respond_to do |format|
       format.json { render :json => @dojos }
     end
   end
   
   def show
-    dojo = Dojo.all.detect{ |dojo| dojo["lat_long"] == params["lat_long"]}
-    @dojo = Dojo.parse(dojo)
+    @dojo = Dojo.find_by_lat_long(params["lat_long"])
   end
   
 end

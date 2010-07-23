@@ -3,6 +3,7 @@ gem "rails", "2.3.8"
 
 gem 'haml'
 gem 'rcov'
+gem 'mysql'
 
 group :development do
   # bundler requires these gems in development
