@@ -21,7 +21,7 @@ describe DojosController do
   describe "show" do
     
     it "should return dojo from lat_long" do
-      get :show, :lat_long => "-30.058381,-51.175247"
+      get :show, :id => Dojo.first.id
       assigns(:dojo).should == Dojo.first
     end
 
