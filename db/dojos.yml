@@ -1,22 +1,72 @@
 - lat_long: "-22.903168,-43.130323"
   place: "UFF"
-  address:
-  directions:
-  capacity:
-  schedule:
-  site:
-  group: 
+  address: Lá na rua das couves
+  directions: Vai pelo cheiro
+  capacity: Um monte de gente
+  schedule: All day long
+  site: http://vaila.com.br
+  group: http://grupo.com.br
+
 - lat_long: "-21.760556,-41.307006"
   place: "UENF"
+  address: 
+  directions: 
+  capacity: 
+  schedule: 
+  site: 
+  group: 
+
 - lat_long: "-21.760556,-41.307006"
   place: "UGF"
+  address: 
+  directions: 
+  capacity: 
+  schedule: 
+  site: 
+  group: 
+
 - lat_long: "-22.914197,-43.177621"
   place: "Lapa"
+  address: 
+  directions: 
+  capacity: 
+  schedule: 
+  site: 
+  group: 
+
 - lat_long: "-21.760098,-41.337347"
   place: "IFF"
+  address: 
+  directions: 
+  capacity: 
+  schedule: 
+  site: 
+  group: 
+
 - lat_long: "-22.954303,-43.168867"
   place: "Unirio"
+  address: 
+  directions: 
+  capacity: 
+  schedule: 
+  site: 
+  group: 
+
 - lat_long: "-22.954303,-43.168867"
   place: "Niteroi"
+  address: 
+  directions: 
+  capacity: 
+  schedule: 
+  site: 
+  group: 
+
 - lat_long: "-22.43261,-42.876892"
   place: "LNCC"
+  address: 
+  directions: 
+  capacity: 
+  schedule: 
+  site: 
+  group: 
+  
