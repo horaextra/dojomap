@@ -35,3 +35,13 @@ p {
   background-color: #EFD6C2;
   border: 1px solid #D68949;
 }
+
+#he {
+  float: right;
+  margin: 10px 10px 0 0;
+  background: url(/images/he.png) no-repeat;
+  width: 72px;
+  height: 27px;
+  display: block;
+  text-indent: -153000px;
+}
