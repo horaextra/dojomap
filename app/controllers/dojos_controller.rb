@@ -8,7 +8,7 @@ class DojosController < ApplicationController
   end
   
   def show
-    @dojo = Dojo.find_by_lat_long(params["lat_long"])
+    @dojo = Dojo.find(params["id"])
   end
   
 end

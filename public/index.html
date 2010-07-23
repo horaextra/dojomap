@@ -26,7 +26,7 @@
           map: map, 
           icon: image
         });
-        $.get("/dojos/show?lat_long=" + dojo.latitude + "," + dojo.longitude, function(contentSting) {
+        $.get("/dojos/" + dojo.id, function(contentSting) {
 
           var infowindow = new google.maps.InfoWindow({
               content: contentSting
