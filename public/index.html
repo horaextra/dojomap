@@ -18,14 +18,14 @@
         myOptions);
     
     var image = 'https://www.patientpak.com/gfx/icons/icon-bathroom.gif';
-    $.getJSON('/toilets', function(toilets) {
-      $(toilets).each(function(index, toilet) {
+    $.getJSON('/dojos', function(dojos) {
+      $(dojos).each(function(index, dojo) {
         var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(toilet.latitude,toilet.longitude), 
+          position: new google.maps.LatLng(dojo.latitude,dojo.longitude), 
           map: map, 
           icon: image
         });
-        $.get("/toilets/show?lat_long=" + toilet.latitude + "," + toilet.longitude, function(contentSting) {
+        $.get("/dojos/show?lat_long=" + dojo.latitude + "," + dojo.longitude, function(contentSting) {
 
           var infowindow = new google.maps.InfoWindow({
               content: contentSting
@@ -55,8 +55,8 @@
 </script>
 </head>
 <body onload="initialize()">
-  <h1>Banheiros no FISL</h1>
-  <p>Não passe aperto no FISL. Use essa aplicação para descobrir o banheiro mais próximo de você! :-)</p>
+  <h1>Dojos pelo Brasil</h1>
+  <p>Saiba onde está rolando o Dojo mais próximo de você! :-)</p>
   <div id="map_canvas" style="width:100%; height:100%"></div>
 </body>
 </html>

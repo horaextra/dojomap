@@ -1,22 +1,22 @@
 #info-window
   #siteNotice
   %h1#firstHeading.firstHeading
-    = @toilet.title
+    = @dojo.title
     %img{ :src => "/images/white-man.png" }
   %p#address
-    = @toilet.address
+    = @dojo.address
   #tip
-    = @toilet.tip
+    = @dojo.tip
   #bodyContent
     %p
       %strong
         Horário:
-        = @toilet.working_hour
+        = @dojo.working_hour
     %p
       %strong
         Detalhes:
       %br
-      = "Suporta: #{@toilet.purpose}."
+      = "Suporta: #{@dojo.purpose}."
       %br
       Capacidade: 
-      = @toilet.capacity
+      = @dojo.capacity
