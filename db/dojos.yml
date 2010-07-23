@@ -1,16 +1,22 @@
 - lat_long: "-22.903168,-43.130323"
-  title: "UFF"
+  place: "UFF"
+  address:
+  directions:
+  capacity:
+  schedule:
+  site:
+  group: 
 - lat_long: "-21.760556,-41.307006"
-  title: "UENF"
+  place: "UENF"
 - lat_long: "-21.760556,-41.307006"
-  title: "UGF"
+  place: "UGF"
 - lat_long: "-22.914197,-43.177621"
-  title: "Lapa"
+  place: "Lapa"
 - lat_long: "-21.760098,-41.337347"
-  title: "IFF"
+  place: "IFF"
 - lat_long: "-22.954303,-43.168867"
-  title: "Unirio"
+  place: "Unirio"
 - lat_long: "-22.954303,-43.168867"
-  title: "Niteroi"
+  place: "Niteroi"
 - lat_long: "-22.43261,-42.876892"
-  title: "LNCC"
+  place: "LNCC"
