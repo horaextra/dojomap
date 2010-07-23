@@ -70,3 +70,11 @@
   site:
   group:
 
+- lat_long: "-23.563181,-46.639066"
+  place: "Caelum"
+  address: Rua Vergueiro, 3185 - sala 87 - Vila Mariana - São Paulo - SP
+  directions: "Auditório"
+  capacity: 
+  schedule: Uma vez ao mês aos sábados
+  site: http://www.guru-sp.org/
+  group: http://groups.google.com/group/ruby-sp
