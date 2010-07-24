@@ -62,11 +62,11 @@
   group: http://groups.google.com.br/group/dojo-rio
 
 - lat_long: "-22.43261,-42.876892"
-  place: "LNCC"
+  place: IST
   address:
-  directions:
+  directions: Avenida Presidente Getúlio Vargas, 335 - Ao lado do LNCC - Petrópolis
   capacity:
-  schedule:
+  schedule: Encontros sábado sim sábado não as 15:00
   site:
   group:
 
