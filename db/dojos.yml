@@ -78,3 +78,12 @@
   schedule: Uma vez ao mês aos sábados
   site: http://www.guru-sp.org/
   group: http://groups.google.com/group/ruby-sp
+  
+- lat_long: "-25.450800, -49.231900"
+  place: "UFPR"
+  address: Rua Cel. Francisco Heráclito dos Santos, 100 - Jardim das Américas, Curitiba, PR
+  directions: Centro Politecnico - Auditorio do Departamento de Informatica
+  capacity: 30 pessoas
+  schedule: Duas vezes ao mês na sexta-feira às 19:00h
+  site:
+  group: http://groups.google.com/group/dojo-parana
