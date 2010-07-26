@@ -10,6 +10,6 @@
       %strong
         Horário:
         = @dojo.schedule
-    %p= "Site: #{@dojo.site}"
-    %p= "Grupo de discussão: #{@dojo.group}"
+    %p= "Site: #{link_to @dojo.site, @dojo.site if @dojo.site}"
+    %p= "Grupo de discussão: #{link_to @dojo.group, @dojo.group if @dojo.group}"
     %p= "Capacidade: #{@dojo.capacity}"
