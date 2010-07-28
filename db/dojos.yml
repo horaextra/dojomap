@@ -87,3 +87,22 @@
   schedule: Duas vezes ao mês na sexta-feira às 19:00h
   site:
   group: http://groups.google.com/group/dojo-parana
+
+- lat_long: "-15.758432,-47.887385"
+  place: "DojoSEA"
+  address: CLN 110, Bloco A, Sala 104, Asa Norte, Brasília, DF, 70753-510
+  directions: SEA Tecnologia - (61) 3033-3355
+  capacity: 
+  schedule: Verificar em <a href="http://www.seatecnologia.com.br/dojo/dojo_sessions/">próximas sessões</a>
+  site: http://www.seatecnologia.com.br/dojo
+  group: http://groups.google.com/group/dojosea
+
+- lat_long: "-15.758614,-47.887182"
+  place: "Dojo Brasília"
+  address: CLN 110, Bloco A, Sala 104, Asa Norte, Brasília, DF, 70753-510
+  directions: SEA Tecnologia - (61) 3033-3355
+  capacity: 
+  schedule: Sábados de 13h às 16h
+  site: http://groups.google.com/group/dojo-brasilia/web
+  group: http://groups.google.com/group/dojo-brasilia
+
