@@ -61,14 +61,14 @@
   site: http://dojorio.wordpress.com
   group: http://groups.google.com.br/group/dojo-rio
 
-- lat_long: "-22.43261,-42.876892"
-  place: IST
-  address:
-  directions: Avenida Presidente Getúlio Vargas, 335 - Ao lado do LNCC - Petrópolis
+- lat_long: "-22.52954,-43.216825"
+  place: IST (ao lado do LNCC/Petrópolis)
+  address: Av. Presidente Getúlio Vargas, 333 - Petrópolis - RJ
+  directions: Ao lado do LNCC
   capacity:
   schedule: Encontros sábado sim sábado não as 15:00
-  site:
-  group:
+  site: http://dojorio.wordpress.com
+  group: http://groups.google.com.br/group/dojo-rio
 
 - lat_long: "-23.563181,-46.639066"
   place: "Caelum"
