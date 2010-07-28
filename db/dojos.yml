@@ -52,12 +52,12 @@
   site: http://dojorio.wordpress.com
   group: http://groups.google.com.br/group/dojo-rio
 
-- lat_long: "-22.954303,-43.168867"
+- lat_long: "-22.954427,-43.168802"
   place: "Unirio"
-  address:
-  directions:
+  address: Avenida Pasteur, 458 – Prédio CCET – Sala 202 – Urca, Rio de Janeiro, RJ
+  directions: Uniriotec Consultoria
   capacity:
-  schedule: Toda quarta-feira às 20h00min
+  schedule: 
   site: http://dojorio.wordpress.com
   group: http://groups.google.com.br/group/dojo-rio
 
