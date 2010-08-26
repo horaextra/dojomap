@@ -114,3 +114,12 @@
   schedule: "Quintas feiras, de 15 em 15 dias, das 19h às 21:30h"
   site: http://groups.google.com/group/dojo-se/web
   group: http://groups.google.com/group/dojo-se
+
+- lat_long: "-22.813647,-47.063929"
+  place: "Unicamp"
+  address: "Av. Albert Einstein, 1050, Cidade Universitária - Campinas / São Paulo"
+  directions: "Instituto de Computação - Unicamp"
+  capacity: 50
+  schedule: "Horários variados votados em http://bit.ly/cdunicamp"
+  site: http://dojounicamp.wordpress.com 
+  group: "Sem grupo, por enquanto"
